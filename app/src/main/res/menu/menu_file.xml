@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/stock"
+        android:title="stock Detail"
+        android:icon="@drawable/stock"/>
+
+    <item android:id="@+id/sale"
+        android:title="sale Detail"
+        android:icon="@drawable/sale"/>
+
+    <item android:id="@+id/user"
+        android:title="User Details"
+        android:icon="@drawable/user_details"/>
+
+    <item android:id="@+id/bikedetail"
+        android:title="bike_add_remove"
+        android:icon="@drawable/bike"/>
+
+    <item android:id="@+id/pay"
+        android:title="Payment Detail"
+        android:icon="@drawable/icon_pay"/>
+
+    <item android:id="@+id/parts"
+        android:title="Parts"
+        android:icon="@drawable/ic_baseline_pedal_bike_24"/>
+
+    <item android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/ic_baseline_help_24"/>
+
+</menu>

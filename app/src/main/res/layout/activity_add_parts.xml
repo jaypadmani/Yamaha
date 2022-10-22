@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Add_Detail"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_b"
+        layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/profile"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:id="@+id/addAImage"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="please upload image.."
+            android:textColor="@color/red2"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addAName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Accessories Name"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addAPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rs. "
+                android:hint="Price"
+                android:inputType="numberDecimal"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addParts"
+            android:spinnerMode="dropdown"
+            android:background="@android:drawable/btn_dropdown"
+            android:gravity="center"
+            android:layout_marginVertical="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add Parts"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="false"
+            android:id="@+id/addPartsBtn"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

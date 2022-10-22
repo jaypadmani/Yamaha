@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.krish.yamaha_admin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yamaha_Admin">
+        <activity
+            android:name=".Stock.Add_Stock"
+            android:exported="true" />
+        <activity
+            android:name=".Sales.Add_Sales"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.Add_Parts"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.yzfr15_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.rayzr125_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.R15v4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.mt15_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.Fzsfi_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.fzs25_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.Fzx_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.Fascino_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.Aerox_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Parts.Parts_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Bike.Add_Bike"
+            android:exported="true" />
+        <activity
+            android:name=".Bike.Bike_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Bike.bike_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".User.Update_User"
+            android:exported="true" />
+        <activity
+            android:name=".User.Add_Detail"
+            android:exported="true" />
+        <activity
+            android:name=".Stock.Stock_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Sales.Sale_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".User.User_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Payment.Pay_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Login.Forgot_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Login.Login_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Splash_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
