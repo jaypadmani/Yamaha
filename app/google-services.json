@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "212399784377",
-    "project_id": "yamaha-6f25a",
-    "storage_bucket": "yamaha-6f25a.appspot.com"
+    "project_number": "529801241592",
+    "project_id": "yamaha-7c9cc",
+    "storage_bucket": "yamaha-7c9cc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:212399784377:android:5a05da651e9c1bb91db668",
+        "mobilesdk_app_id": "1:529801241592:android:783b1c10455500a013ac0d",
         "android_client_info": {
           "package_name": "com.krish.yamaha_admin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "212399784377-h7c9d8nsj35gq5frqpgll34k0d3ngi5m.apps.googleusercontent.com",
+          "client_id": "529801241592-22im858g3h0o1rhd31654qfrs8lbo8n7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCVmLQILqv0W9nQVhmJJacbtQF7wu5fnME"
+          "current_key": "AIzaSyAeKQF6t51OPJN-d2TKIvMnrJ9SIm8PBq0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "212399784377-h7c9d8nsj35gq5frqpgll34k0d3ngi5m.apps.googleusercontent.com",
+              "client_id": "529801241592-22im858g3h0o1rhd31654qfrs8lbo8n7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
